@@ -24,6 +24,24 @@ var body = document.querySelector('body');
 
 
 function makeMiddleEarth() {
+  var land=document.createElement("section");
+  land.id="middle-earth";
+body.appendChild(land);
+  console.log(land);
+
+for (var i = 0; i < lands.length; i++) {
+    var landName=console.log(lands[i]);
+  var article= document.createElement("article");
+  document.createElement("h1")
+  'h1'.textContent = landName;
+    }
+    body.appendChild(middle-earth)
+
+
+
+
+
+
   // create a section tag with an id of middle-earth
   // add each land as an article tag
   // inside each article tag include an h1 with the name of the land
